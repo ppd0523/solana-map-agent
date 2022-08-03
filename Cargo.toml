@@ -1,0 +1,14 @@
+[package]
+name = "agent"
+version = "0.1.0"
+edition = "2021"
+description = "Agent calling Solana RPC in Solana Map service"
+
+[env]
+LOG_LEVEL = "debug"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.9"
+zmq = "0.9"
+clap = "3.2"
